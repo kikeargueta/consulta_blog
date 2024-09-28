@@ -1,0 +1,25 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #4CAF50; /* Color de fondo para los encabezados */
+  color: white; /* Color de texto para los encabezados */
+}
+
+td {
+  background-color: #f9f9f9; /* Color de fondo para las celdas */
+  color: #333; /* Color de texto para las celdas */
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+tr:nth-child(even) td {
+  background-color: #f1f1f1; /* Color alternativo para las filas pares */
+}
+
+tr:hover {
+  background-color: #ddd; /* Color al pasar el mouse sobre una fila */
+}
